@@ -7,7 +7,7 @@ import {
   FileText,
   GanttChartSquare,
   LayoutDashboard,
-  Sitemap,
+  Network,
   Users,
 } from 'lucide-react';
 
@@ -20,7 +20,7 @@ export type NavItem = {
 
 export const navItems: NavItem[] = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/dashboard/org-chart', label: 'Org Chart', icon: Sitemap },
+  { href: '/dashboard/org-chart', label: 'Org Chart', icon: Network },
   { href: '/dashboard/kpi-monitoring', label: 'KPI Monitoring', icon: BarChart },
   { href: '/dashboard/workflows', label: 'Workflows', icon: GanttChartSquare },
   { href: '/dashboard/employees', label: 'Employees', icon: Users },
